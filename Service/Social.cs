@@ -33,7 +33,7 @@ namespace SocialMediaAPI.Service
             
             SocialOverallDTO InstagramStats = new()
             {
-                SocialMedia = "Twitter",
+                SocialMedia = "Instagram",
                 Username = "@DanTHeMAN",
                 FollowerCount = rand.Next(3000, 12001),
                 AddedFollowers = rand.Next(-210, 251),
