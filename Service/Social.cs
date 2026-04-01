@@ -15,7 +15,7 @@ namespace SocialMediaAPI.Service
 
             SocialOverallDTO FacebookStats = new()
             {
-                SocialMedia = "Facebook",
+                SocialMedia = "facebook",
                 Username = "DanTheMan",
                 FollowerCount = rand.Next(1000, 7001),
                 AddedFollowers = rand.Next(-110, 201),
@@ -24,7 +24,7 @@ namespace SocialMediaAPI.Service
 
             SocialOverallDTO TwitterStats = new()
             {
-                SocialMedia = "Twitter",
+                SocialMedia = "twitter",
                 Username = "DanTheMan",
                 FollowerCount = rand.Next(1000, 9001),
                 AddedFollowers = rand.Next(-50, 101),
@@ -33,7 +33,7 @@ namespace SocialMediaAPI.Service
             
             SocialOverallDTO InstagramStats = new()
             {
-                SocialMedia = "Instagram",
+                SocialMedia = "instagram",
                 Username = "@DanTHeMAN",
                 FollowerCount = rand.Next(3000, 12001),
                 AddedFollowers = rand.Next(-210, 251),
@@ -42,7 +42,7 @@ namespace SocialMediaAPI.Service
 
             SocialOverallDTO YoutubeStats = new()
             {
-                SocialMedia = "Youtube",
+                SocialMedia = "youtube",
                 Username = "DanTheMan",
                 FollowerCount = rand.Next(10000, 30001),
                 AddedFollowers = rand.Next(-510, 1001),
@@ -59,7 +59,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO FacebookViews = new()
             {
-                SocialMedia = "Facebook",
+                SocialMedia = "facebook",
                 ViewsOrLikes = "Page Views",
                 Amounts = rand.Next(5,301),
                 TrendingPercentage = rand.Next(-201, 501)
@@ -68,7 +68,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO FacebookLikes = new()
             {
-                SocialMedia = "Facebook",
+                SocialMedia = "facebook",
                 ViewsOrLikes = "Likes",
                 Amounts = rand.Next(5,301),
                 TrendingPercentage = rand.Next(-201, 501)
@@ -77,7 +77,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO TwitterLikes = new()
             {
-                SocialMedia = "Twitter",
+                SocialMedia = "twitter",
                 ViewsOrLikes = "Likes",
                 Amounts = rand.Next(5, 401),
                 TrendingPercentage = rand.Next(-201, 501)  
@@ -86,7 +86,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO TwitterViews = new()
             {
-                SocialMedia = "Twitter",
+                SocialMedia = "twitter",
                 ViewsOrLikes = "Retweets",
                 Amounts = rand.Next(5, 401),
                 TrendingPercentage = rand.Next(-201, 501)  
@@ -95,7 +95,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO InstagramLikes = new()
             {
-                SocialMedia = "Instagram",
+                SocialMedia = "instagram",
                 ViewsOrLikes = "Likes",
                 Amounts = rand.Next(5, 500),
                 TrendingPercentage = rand.Next(-104, 101)
@@ -104,7 +104,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO InstagramViews = new()
             {
-                SocialMedia = "Instagram",
+                SocialMedia = "instagram",
                 ViewsOrLikes = "Profile Views",
                 Amounts = rand.Next(5, 800),
                 TrendingPercentage = rand.Next(-104, 101)
@@ -113,7 +113,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO YoutubeLikes = new()
             {
-                SocialMedia = "Youtube",
+                SocialMedia = "youtube",
                 ViewsOrLikes = "Likes",
                 Amounts = rand.Next(100, 5001),
                 TrendingPercentage = rand.Next(-100,101)
@@ -122,7 +122,7 @@ namespace SocialMediaAPI.Service
 
             DailyOverviewDTO YoutubeViews = new()
             {
-                SocialMedia = "Youtube",
+                SocialMedia = "youtube",
                 ViewsOrLikes = "Total Views",
                 Amounts = rand.Next(100, 6001),
                 TrendingPercentage = rand.Next(-100,101)
