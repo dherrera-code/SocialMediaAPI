@@ -16,7 +16,7 @@ namespace SocialMediaAPI.Service
             SocialOverallDTO FacebookStats = new()
             {
                 SocialMedia = "facebook",
-                Username = "DanTheMan",
+                Username = "@DanTheMan1",
                 FollowerCount = rand.Next(1000, 7001),
                 AddedFollowers = rand.Next(-110, 201),
             };
@@ -25,7 +25,7 @@ namespace SocialMediaAPI.Service
             SocialOverallDTO TwitterStats = new()
             {
                 SocialMedia = "twitter",
-                Username = "DanTheMan",
+                Username = "@DanTheMan2",
                 FollowerCount = rand.Next(1000, 9001),
                 AddedFollowers = rand.Next(-50, 101),
             };
